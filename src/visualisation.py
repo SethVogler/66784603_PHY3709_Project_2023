@@ -1,5 +1,8 @@
 from numerov_algorithm import numerov
 from constants import x_min, x_max, N, dx
+from potential import V
+import matplotlib.pyplot as plt
+import numpy as np
 def plot_results(E):
     """Plot the wave function and potential"""
     psi = numerov(0.0, 0.1, E)

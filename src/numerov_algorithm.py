@@ -1,5 +1,7 @@
-
 from constants import x_min, x_max, N, dx
+from potential import V
+import numpy as np
+
 def numerov(psi0, psi1, E):
     """Numerov algorithm for solving the Schrödinger equation"""
 
